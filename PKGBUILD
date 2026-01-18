@@ -23,6 +23,7 @@ prepare() {
 }
 
 build() {
+	export CXXFLAGS="$CXXFLAGS -Werror=format-security"
     cd "${srcdir}/source-engine"
     ./waf configure -T release
     ./waf build
