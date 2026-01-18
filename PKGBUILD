@@ -8,8 +8,10 @@ license=('custom')
 depends=('sdl2-compat' 'freetype2' 'fontconfig' 'zlib' 'bzip2' 'libjpeg' 'libpng' 'curl' 'openal' 'opus')
 makedepends=("git" "gcc" "python")
 options=('!debug' 'strip')
-source=("git+https://github.com/nillerusr/source-engine.git")
-sha256sums=('SKIP')
+source=("git+https://github.com/nillerusr/source-engine.git"
+		'source-engine.desktop')
+sha256sums=('SKIP'
+			'SKIP')
 
 pkgver() {
 	cd source-engine
@@ -32,5 +34,6 @@ build() {
 package() {
     cd "${srcdir}/source-engine"
     DESTDIR="$pkgdir/" ./waf install
-	#install -Dm644 "${srcdir}/source-engine.desktop" -t "${pkgdir}/usr/share/applications"
+	install -Dm644 "launcher/res/launcher.ico" "${pkgdir}/usr/share/pixmaps/source-engine.ico"
+	install -Dm644 "${srcdir}/source-engine.desktop" -t "${pkgdir}/usr/share/applications"
 }
