@@ -9,7 +9,7 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/pixmaps/source-engine.ico
-export DESKTOP=/usr/share/applications/source-engine.desktop
+export DESKTOP=DUMMY #/usr/share/applications/source-engine.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
