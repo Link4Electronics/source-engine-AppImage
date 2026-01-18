@@ -1,7 +1,7 @@
 # source-engine-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/Link4Electronics/source-engine-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Link4Electronics/source-engine-AppImage/releases/latest)
+[![CI Build Status](https://github.com//Link4Electronics/source-engine-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/Link4Electronics/source-engine-AppImage/releases/latest)
 
 * [Latest Stable Release](https://github.com/Link4Electronics/source-engine-AppImage/releases/latest)
 
