@@ -31,4 +31,5 @@ build() {
 package() {
     cd "${srcdir}/source-engine"
     DESTDIR="$pkgdir/" ./waf install
+	#install -Dm644 "${srcdir}/source-engine.desktop" -t "${pkgdir}/usr/share/applications"
 }
