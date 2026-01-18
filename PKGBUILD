@@ -24,7 +24,7 @@ prepare() {
 
 build() {
     cd "${srcdir}/source-engine"
-    ./waf configure --64bits -T release
+    ./waf configure -T release
     ./waf build
 }
 
