@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Source-Engine
+Comment=Modified source engine (2017)
+Exec=source-engine
+Icon=source-engine.ico
+Terminal=false
+Categories=Game;Action
