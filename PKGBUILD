@@ -1,5 +1,5 @@
 pkgname=source-engine-git
-pkgver=1.5.r219.g7c23000
+pkgver=1.16.r110.ged8209cc
 pkgrel=1
 pkgdesc="Modified source engine (2017) developed by valve and leaked in 2020."
 arch=('x86_64' 'aarch64')
